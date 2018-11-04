@@ -24,7 +24,6 @@ public class Question extends AbstractEntity {
         this.question = question;
     }
 
-    @JsonIgnore
     public Answer getAnswer() {
         return answer;
     }
